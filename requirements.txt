@@ -1,0 +1,5 @@
+dotenv
+flask
+python-dotenv
+requests
+smtplib
