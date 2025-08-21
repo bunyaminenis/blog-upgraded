@@ -26,43 +26,52 @@ It features an About page, Contact form with email sending capability, and dynam
 ## 📂 Project Structure
 
 ├── main.py # Flask application entry point
-├── templates/ # HTML templates
-│ ├── index.html # Home page
-│ ├── about.html # About page
-│ ├── contact.html # Contact form page
-│ ├── post.html # Single blog post page
-│ ├── header.html # Reusable header
-│ └── footer.html # Reusable footer
-├── static/ # CSS, JS, and images
-├── .env # Environment variables (not included in repo)
-└── requirements.txt # Python dependencies
 
+├── templates/ # HTML templates
+
+│ ├── index.html # Home page
+
+│ ├── about.html # About page
+
+│ ├── contact.html # Contact form page
+
+│ ├── post.html # Single blog post page
+
+│ ├── header.html # Reusable header
+
+│ └── footer.html # Reusable footer
+
+├── static/ # CSS, JS, and images
+
+├── .env # Environment variables (not included in repo)
+
+└── requirements.txt # Python dependencies
 
 ---
 
 ## ⚙️ Setup & Installation
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/flask-blog.git
+   bash
+   git clone https://github.com/bunyaminenis/flask-blog.git
    cd flask-blog
    
-2. Create and activate a virtual environment
+2. **Create and activate a virtual environment**
    python -m venv venv
    source venv/bin/activate      # Mac/Linux
    venv\Scripts\activate         # Windows
 
-3. Create .env file in the project root:
+3. **Create .env file in the project root:**
 
    MY_EMAIL=your_email@example.com
    PASSWORD=your_email_password
    TO_EMAIL=destination_email@example.com
 
-4. Run the app
+4. **Run the app**
    
    python main.py
 
-5. Open in browser
+5. **Open in browser**
    
    http://127.0.0.1:5000
    
